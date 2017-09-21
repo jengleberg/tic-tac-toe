@@ -1,0 +1,16 @@
+
+h1 {
+	
+}
+
+.cell {
+  width:80px;
+  height:80px;
+  border: 5px solid #000000;
+  background: #FFFFFF;
+  font-size: 46pt;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
