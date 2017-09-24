@@ -1,2 +1,109 @@
 isWinner
 turnCount
+
+ 	if (isWinner === true) {
+  		if (isWinner === 'X'); 
+  		alert("Player 1 is the Winner!");
+  	} else if (isWinner === 'O') {
+  		alert("Player 2 is the Winner!");
+  	}
+
+
+  	// Middle Row Winner 	
+	
+  } else if ($('#4').text() === 'X' && $('#5').text() === 'X' && $('#6').text() === 'X') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 1 is the Winner!");
+  	
+  	
+  } else if ($('#4').text() === 'O' && $('#5').text() === 'O' && $('#6').text() === 'O') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 2 is the Winner!");
+
+// Bottom Row Winner
+
+ } else if ($('#7').text() === 'X' && $('#8').text() === 'X' && $('#9').text() === 'X') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 1 is the Winner!");
+  	
+  	
+  } else if ($('#7').text() === 'O' && $('#8').text() === 'O' && $('#9').text() === 'O') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 2 is the Winner!");
+  	
+
+ // Left Column Winner
+
+} else if ($('#1').text() === 'X' && $('#4').text() === 'X' && $('#7').text() === 'X') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 1 is the Winner!");
+  	
+  	
+  } else if ($('#1').text() === 'O' && $('#4').text() === 'O' && $('#7').text() === 'O') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 2 is the Winner!");
+  	
+
+ //Middle Column Winner
+
+} else if ($('#2').text() === 'X' && $('#5').text() === 'X' && $('#8').text() === 'X') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 1 is the Winner!");
+  	
+
+  } else if ($('#2').text() === 'O' && $('#5').text() === 'O' && $('#8').text() === 'O') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 2 is the Winner!");
+  	
+
+ //Right Column Winner
+
+} else if ($('#3').text() === 'X' && $('#6').text() === 'X' && $('#9').text() === 'X') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 1 is the Winner!");
+  	
+  	
+  } else if ($('#3').text() === 'O' && $('#6').text() === 'O' && $('#9').text() === 'O') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 2 is the Winner!");
+  	
+
+ //Left Diagonal Winner
+
+} else if ($('#1').text() === 'X' && $('#5').text() === 'X' && $('#9').text() === 'X') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 1 is the Winner!");
+  	
+  	
+  } else if ($('#1').text() === 'O' && $('#5').text() === 'O' && $('#9').text() === 'O') {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 2 is the Winner!");
+  	
+
+ //Right Diagonal Winner
+ 
+ } else if  {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 1 is the Winner!");
+  	
+  	
+  } else if ($('#3').text() === 'O' && $('#5').text() === 'O' && $('#7').text() === 'O'); {
+  	isWinner = true;
+  	if (isWinner === true) 
+  		alert("Player 2 is the Winner!");
+}
+
+ $('.cells').off("click");

@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
-	<title>tic-tac-toe</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body class="container">
-
-	<h1 id="header">Tic-Tac-Toe</h1>
-	
-	<table>
-  <tr>
-    <td id="1" class="cell"></td>
-    <td id="2" class="cell"></td>
-    <td id="3" class="cell"></td>
-  </tr>
-  <tr>
-    <td id="4" class="cell"></td>
-    <td id="5" class="cell"></td>
-    <td id="6" class="cell"></td>
-  </tr>
-  <tr>
-    <td id="7" class="cell"></td>
-    <td id="8" class="cell"></td>
-    <td id="9" class="cell"></td>
-  </tr>
-</table>
-
-<button id="reset">Click to Reset Game</button>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="app.js"></script>
-
+<body>
+  <div class="container">
+    <button id="newGame">New Game></button>
+  </div>
+  <h3 class="playerTurn">X's turn</h3>
+  <table>
+    <thead>
+      <tr>
+        <td data-num="0"></td>
+        <td data-num="1"></td>
+        <td data-num="2"></td>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td data-num="3"></td>
+        <td data-num="4"></td>
+        <td data-num="5"></td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+        <td data-num="6"></td>
+        <td data-num="7"></td>
+        <td data-num="8"></td>
+      </tr>
+      </tfoot>
+  </table>
 
 </body>
+  
+  <script src="app.js"></script>
+
 </html>
